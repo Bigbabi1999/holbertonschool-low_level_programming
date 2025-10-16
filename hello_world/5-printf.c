@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - print a specific line using printf
+ * main - Entry point
  *
+ * Description: print a specific line using printf
  * return: Always 0 (Success)
  */
 int main(void)
