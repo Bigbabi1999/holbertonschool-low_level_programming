@@ -3,7 +3,7 @@
 /* Function to display a welcome message */
 
 /* main - prints Hello, world
-* Return: 0 */
+* Return: 1 */
 int main(void)
 {
 	int n;
