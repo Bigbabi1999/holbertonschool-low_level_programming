@@ -1,4 +1,4 @@
-Z#include <stdlib.h>
+Z#include <stdio.h>
 #include <time.h>
 /*  #include <stdlib.h>*/
 
@@ -10,7 +10,7 @@ int main(void)
 
 	/*srand(time(0));
 	n = rand() - RAND_MAX / 2;*/
-	push("enter a number")
+	printf("enter a number");
 	scanf("%d",&n);
 	if (n > 0) 
  		printf("%d is positive",n);
