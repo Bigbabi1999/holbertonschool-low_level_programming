@@ -1,5 +1,5 @@
-Z#include <stdio.h>
-#include <time.h>
+#include<stdio.h>
+#include<time.h>
 /*  #include <stdlib.h>*/
 
 /* main - prints Hello, world
