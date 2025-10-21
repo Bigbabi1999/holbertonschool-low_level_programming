@@ -1,25 +1,25 @@
 #include<stdio.h>
 #include<time.h>
-#include <stdlib.h>
+#include<stdlib.h>
 
-/**
+/*
 * main - prints Hello, world
 * Return:(0)
 */
 
 int main(void)
 {
-	int n;
+	int (n);
 
 	srand (time(0));
-	n = rand () - RAND_MAX / 2;
+	(n) = rand () - RAND_MAX / 2;
 	printf ("enter a number");
-		scanf("%d",&n);
-	if (n > 0){ 
- 		printf ("%d is positive",n);}
+		scanf ("%d",&n);
+	if 	(n > 0){ 
+ 		printf ("%d is positive ",n);}
 	else if (n == 0){
-		printf ("%d is zero",n);}
+		printf ("%d is zero ",n);}
 	else{
-		printf ("%d is negative",n);}
+		printf ("%d is negative gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative",n);}
 	return (0);
 }
