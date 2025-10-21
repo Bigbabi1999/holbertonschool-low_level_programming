@@ -2,8 +2,10 @@
 #include<time.h>
 #include<stdlib.h>
 
-/*main - prints Hello, world Return:(0)*/
-
+/**main - prints Hello, world 
+ *
+ * Return:(0)
+ */
 
 int main(void)
 {
@@ -19,6 +21,7 @@ int main(void)
 		printf (" %d is zero ",n);}
 	else{
 		printf (" %d is negative ",n);}
-		
+	{
+		printf (" dont put alphabet in the number ")}
 	return (0);
 }
