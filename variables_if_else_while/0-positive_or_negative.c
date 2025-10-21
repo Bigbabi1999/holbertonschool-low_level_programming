@@ -22,6 +22,6 @@ int main(void)
 	else{
 		printf (" %d is negative ",n);}
 	
-		scanf ("dont put alphabet in the number ");
+		/*dont put alphabet and word in the number*/
 	return (0);
 }
