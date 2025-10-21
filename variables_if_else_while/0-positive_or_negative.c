@@ -20,6 +20,6 @@ int main(void)
 	else if (n == 0){
 		printf ("%d is zero ",n);}
 	else{
-		printf ("%d is negative gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-positive_or_negative.c -o 0-positive_or_negative",n);}
+		printf ("%d is negative ",n);}
 	return (0);
 }
