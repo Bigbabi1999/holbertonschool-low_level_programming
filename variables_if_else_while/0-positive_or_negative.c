@@ -4,7 +4,7 @@
 
 /**main - prints Hello, world 
  *
- * Return:(0)
+ *Return:(0)
  */
 
 int main(void)
@@ -19,6 +19,6 @@ int main(void)
 		printf (" %d is zero\n ",n);}
 	else{
 		printf (" %d is negative\n ",n);}
-			/**print the alphabet and word is not a number**/
-   		return (0);
+			
+		return(0);
 }
