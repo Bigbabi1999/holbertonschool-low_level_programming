@@ -2,7 +2,7 @@
 #include<time.h>
 #include<stdlib.h>
 
-/**main-prints Hello,world/
+/**(main-prints Hello,world)
  *
  *Return:(0)
  */
