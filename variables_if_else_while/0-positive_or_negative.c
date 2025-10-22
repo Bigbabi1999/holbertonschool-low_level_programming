@@ -3,9 +3,9 @@
 #include<stdlib.h>
 
 /**main-prints Hello,world
-*
-*Return:(0)
 */
+ Return:(0)
+
 
 int main(void)
 {
