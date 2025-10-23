@@ -12,10 +12,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	alphabet = n % alphabet;
+	(alphabet) = n % alphabet;
         if      (alphabet > n)
         {
-                ("Alphabet of \n is \n and is greater than 5\n",n,alphabet);
+                ("Alphabet of \n is \n is alphabet in \n",n,alphabet);
         }
 	return (0);
 }
