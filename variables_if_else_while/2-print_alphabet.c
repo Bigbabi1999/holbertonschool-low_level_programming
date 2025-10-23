@@ -15,7 +15,7 @@ int main(void)
 	alphabet = n % alphabet;
         if      (alphabet > n)
         {
-                ("Alphabet of \n is \n is alphabet in \n",n,alphabet);
+                ("Alphabet of \n is \n is alphabet in \n"(alphabet));
         }
 	return (0);
 }
