@@ -13,9 +13,9 @@ int main(void)
         while(a < 26)
         {
                 putchar('a'+ a);
+		putchar('a'+ a);
                 a++;
         }
         putchar('\n');
-	putchar('\n');
         return 0;
 }
