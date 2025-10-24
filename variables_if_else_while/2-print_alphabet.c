@@ -8,7 +8,13 @@
 
 int main(void)
 {
-	putchar('a' + 0 && printf("abcdefghijklmnopqrstuvwxyz"));
+	int a = 0;
+	
+	while(a < 26)
+	{
+		putchar('a'+ a);
+		a++;
+	}
 	putchar('\n');
 	return 0;
 }
